@@ -15,6 +15,9 @@ h1{
 .date{
     font-size: 1rem;
 }
+.basic-info{
+    font-size: 1rem;
+}
 /* education styling */
 
 .edu-title{
@@ -48,8 +51,5 @@ h1{
     font-size: 2rem;
 }
 .tools > ul {
-    font-size: 1rem;
-}
-.basic-info{
     font-size: 1rem;
 }

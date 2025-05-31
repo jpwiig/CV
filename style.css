@@ -1,0 +1,55 @@
+/*Master styling*/
+
+body{
+font-family: monospace;
+background-color: black;
+color: green;
+}
+
+h1{
+    font-size: 4rem;
+}
+.name {
+    font-size: 3rem;
+}
+.date{
+    font-size: 1rem;
+}
+/* education styling */
+
+.edu-title{
+    font-size: 2rem;
+}
+.edu-subtitle{
+    font-size: 1rem;
+}
+.higher-edu > h2 {
+    font-size: 3rem;
+}
+
+
+/*experience styling*/
+.experience > h3 {
+    font-size: 3rem;
+}
+.exp-title {
+    font-size: 2rem;
+}
+
+.exp-subtitle{
+    font-size: 1rem;
+}
+/*Tools styling*/
+.tools > h4 {
+    font-size: 3rem;
+}
+
+.tools > h5{
+    font-size: 2rem;
+}
+.tools > ul {
+    font-size: 1rem;
+}
+.basic-info{
+    font-size: 1rem;
+}

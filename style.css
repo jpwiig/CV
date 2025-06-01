@@ -3,7 +3,7 @@
 body{
 font-family: monospace;
 background-color: black;
-color: green;
+color: rgb(4, 228, 4);
 }
 
 h1{
@@ -29,6 +29,9 @@ h1{
 }
 .higher-edu > h2 {
     font-size: 3rem;
+}
+.contact-info > a {
+color: rgb(4, 228, 4);
 }
 
  p{

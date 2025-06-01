@@ -8,6 +8,9 @@ color: green;
 
 h1{
     font-size: 4rem;
+    overflow: hidden;
+    white-space: nowrap;
+   
 }
 .name {
     font-size: 3rem;
@@ -30,11 +33,18 @@ h1{
     font-size: 3rem;
 }
 
+ p{
+inline-size: 60%;
+overflow-wrap: break-word;
+}
 
 /*experience styling*/
+
 .experience > h3 {
     font-size: 3rem;
 }
+
+
 .exp-title {
     font-size: 2rem;
 }
@@ -42,14 +52,46 @@ h1{
 .exp-subtitle{
     font-size: 1rem;
 }
+
 /*Tools styling*/
+.tools > .grid{
+     display: grid;
+     row-gap: 5% 5%;
+     grid-template-columns: auto auto ;
+    
+}
+
 .tools > h4 {
     font-size: 3rem;
 }
 
-.tools > h5{
+.tools > .grid >.grid-item-0 > h5{
     font-size: 2rem;
+    
 }
-.tools > ul {
+.tools > .grid >.grid-item-0 > ul {
     font-size: 1rem;
 }
+
+.tools > .grid >.grid-item-1 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-1 > ul {
+    font-size: 1rem;
+}
+
+.tools > .grid >.grid-item-2 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-2 > ul {
+    font-size: 1rem;
+}
+
+.tools > .grid >.grid-item-3 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-3 > ul {
+    font-size: 1rem;
+}
+
+

@@ -1,0 +1,100 @@
+
+@media print{
+
+body {
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(20, 121, 236);
+color: black;
+}
+
+h1{
+    font-size: 5rem;
+   
+}
+.name {
+    font-size: 4rem;
+}
+.date{
+    font-size: 1rem;
+}
+.basic-info{
+    font-size: 1rem;
+}
+/* education styling */
+
+.edu-title{
+    font-size: 2rem;
+}
+.edu-subtitle{
+    font-size: 1rem;
+}
+.higher-edu > h2 {
+    font-size: 3rem;
+}
+.contact-info > a {
+color: rgb(4, 228, 4);
+font-size: 1rem;
+}
+
+ p{
+inline-size: 60%;
+overflow-wrap: break-word;
+}
+
+/*experience styling*/
+
+.experience > h3 {
+    font-size: 3rem;
+}
+
+
+.exp-title {
+    font-size: 2rem;
+}
+
+.exp-subtitle{
+    font-size: 1rem;
+}
+
+/*Tools styling*/
+.tools > .grid{
+     display: grid;
+     row-gap: 5% 5%;
+     grid-template-columns: auto auto ;
+    
+}
+
+.tools > h4 {
+    font-size: 3rem;
+}
+
+.tools > .grid >.grid-item-0 > h5{
+    font-size: 2rem;
+    
+}
+.tools > .grid >.grid-item-0 > ul {
+    font-size: 1rem;
+}
+
+.tools > .grid >.grid-item-1 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-1 > ul {
+    font-size: 1rem;
+}
+
+.tools > .grid >.grid-item-2 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-2 > ul {
+    font-size: 1rem;
+}
+
+.tools > .grid >.grid-item-3 > h5{
+    font-size: 2rem;
+}
+.tools > .grid >.grid-item-3 > ul {
+    font-size: 1rem;
+}
+
+}

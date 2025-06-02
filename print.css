@@ -2,37 +2,40 @@
 @media print{
 
 body {
-font-family: 'Times New Roman', Times, serif;
-background-color: rgb(20, 121, 236);
+font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: white;
 color: black;
 }
 
-h1{
-    font-size: 5rem;
-   
-}
 .name {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 .date{
+    font-style: italic;
     font-size: 1rem;
 }
 .basic-info{
     font-size: 1rem;
 }
 /* education styling */
-
-.edu-title{
+.higher-edu > h2{
     font-size: 2rem;
 }
+.edu-grid{
+     display: grid;
+     row-gap: 5% 5%;
+     grid-template-columns: auto auto;
+}
+.edu-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
 .edu-subtitle{
+
     font-size: 1rem;
 }
-.higher-edu > h2 {
-    font-size: 3rem;
-}
 .contact-info > a {
-color: rgb(4, 228, 4);
+color: rgb(2, 2, 2);
 font-size: 1rem;
 }
 
@@ -44,12 +47,12 @@ overflow-wrap: break-word;
 /*experience styling*/
 
 .experience > h3 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
 .exp-title {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .exp-subtitle{
@@ -57,6 +60,7 @@ overflow-wrap: break-word;
 }
 
 /*Tools styling*/
+
 .tools > .grid{
      display: grid;
      row-gap: 5% 5%;

@@ -5,21 +5,40 @@ body {
 font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color: white;
 color: black;
+margin: 0.1in;
 }
 
+.lang-switch{
+    /*hide*/
+
+     visibility: hidden;
+}
+.information-personal-website{
+    /*hide*/
+    visibility: hidden;
+
+}
+ p{
+inline-size: 90%;
+overflow-wrap: break-word;
+orphans: 4;
+}
 .name {
-    font-size: 2rem;
+    font-size: 25pt;
+}
+.contact-info{
+    font-style: italic;
 }
 .date{
     font-style: italic;
-    font-size: 1rem;
+    font-size: 12pt;
 }
 .basic-info{
-    font-size: 1rem;
+    font-size: 15pt;
 }
 /* education styling */
 .higher-edu > h2{
-    font-size: 2rem;
+    font-size: 20pt;
 }
 .edu-grid{
      display: grid;
@@ -27,22 +46,19 @@ color: black;
      grid-template-columns: auto auto;
     }
 .edu-title{
-    font-size: 1rem;
+    font-size: 15pt;
     font-weight: bold;
 }
 .edu-subtitle{
 
-    font-size: 0.5rem;
+    font-size: 12pt;
+    font-style: italic;
 }
 .contact-info > a {
 color: rgb(2, 2, 2);
-font-size: 1rem;
+font-size: 10pt;
 }
 
- p{
-inline-size: 60%;
-overflow-wrap: break-word;
-}
 
 /*experience styling*/
 .exp-grid{
@@ -52,17 +68,20 @@ overflow-wrap: break-word;
   
 }
 .experience > h3 {
-    font-size: 2rem;
+    font-size: 25pt;
 }
 
 
 .exp-title {
-    font-size: 1rem;
+    font-size: 15pt;
     font-weight: bold;
 }
 
 .exp-subtitle{
-    font-size: 1rem;
+    font-size: 12pt;
+}
+.exp-info{
+    font-size: 10pt;
 }
 
 /*Tools styling*/
@@ -75,36 +94,36 @@ overflow-wrap: break-word;
 }
 
 .tools > h4 {
-    font-size: 3rem;
+    font-size: 25pt;
 }
 
 .tools > .grid >.grid-item-0 > h5{
-    font-size: 2rem;
+    font-size: 15pt;
     
 }
 .tools > .grid >.grid-item-0 > ul {
-    font-size: 1rem;
+    font-size: 10pt;
 }
 
 .tools > .grid >.grid-item-1 > h5{
-    font-size: 2rem;
+    font-size: 15pt;
 }
 .tools > .grid >.grid-item-1 > ul {
-    font-size: 1rem;
+    font-size: 10pt;
 }
 
 .tools > .grid >.grid-item-2 > h5{
-    font-size: 2rem;
+    font-size: 15pt;
 }
 .tools > .grid >.grid-item-2 > ul {
-    font-size: 1rem;
+    font-size: 10pt;
 }
 
 .tools > .grid >.grid-item-3 > h5{
-    font-size: 2rem;
+    font-size: 15pt;
 }
 .tools > .grid >.grid-item-3 > ul {
-    font-size: 1rem;
+    font-size: 10pt;
 }
 
 }

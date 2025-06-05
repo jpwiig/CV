@@ -25,14 +25,14 @@ color: black;
      display: grid;
      row-gap: 5% 5%;
      grid-template-columns: auto auto;
-}
+    }
 .edu-title{
     font-size: 1rem;
     font-weight: bold;
 }
 .edu-subtitle{
 
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 .contact-info > a {
 color: rgb(2, 2, 2);
@@ -45,7 +45,12 @@ overflow-wrap: break-word;
 }
 
 /*experience styling*/
-
+.exp-grid{
+     display: grid;
+     row-gap: 5% 5%;
+     grid-template-columns: auto auto;
+  
+}
 .experience > h3 {
     font-size: 2rem;
 }
@@ -53,6 +58,7 @@ overflow-wrap: break-word;
 
 .exp-title {
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .exp-subtitle{

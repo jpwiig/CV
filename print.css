@@ -8,16 +8,10 @@ color: black;
 margin: 0.1in;
 }
 
-.lang-switch{
-    /*hide*/
-
-     visibility: hidden;
+nav{
+    visibility: collapse;
 }
-.information-personal-website{
-    /*hide*/
-    visibility: hidden;
 
-}
  p{
 inline-size: 90%;
 overflow-wrap: break-word;
